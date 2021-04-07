@@ -3,8 +3,8 @@ let imgArray = imgObjectToArray(document.querySelectorAll('.img-outp>img'))
 let left_button,right_button
 [left_button,right_button] = document.querySelectorAll('.button')
 
-left_button.addEventListener('click',() => shift('left'))
-right_button.addEventListener('click',() => shift('right'))
+left_button.addEventListener('click',() => shift('right'))
+right_button.addEventListener('click',() => shift('left'))
 
 function shift(direction){
     let index, insertSide
