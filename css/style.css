@@ -48,7 +48,7 @@ img {
 }
 
 .hidden {
-    width: 10px;
+    width: 1px;
     transition: all ease 0.5s;
 }
 
