@@ -62,7 +62,7 @@ img {
 .center_picture {
     width: 48%;
     height: 100%;
-    transition: all ease 0.5s;
+    transition: all cubic-bezier(0.52, -0.16, 0, 1.4) 0.5s;
 }
 
 .right_picture{
